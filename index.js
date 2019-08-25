@@ -43,6 +43,7 @@ ygopro.ctos_follow_before("CHAT", true, (buffer, info, client, server, datas) =>
 	if (!room) {
 		return;
 	}
+	const msg = _.trim(info.msg);
 	const cmd = msg.split(' ');
 	if (cmd[0] === "/ai") { 
 		if (name = cmd[1]) {
