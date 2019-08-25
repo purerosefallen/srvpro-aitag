@@ -66,7 +66,7 @@ ygopro.stoc_follow_after("CHANGE_SIDE", true, (buffer, info, client, server, dat
 	if (!room) {
 		return false;
 	}
-	ygopro.ctos_send(server, {
+	ygopro.ctos_send(server, "UPDATE_DECK", {
 		mainc: client.main.length,
 		sidec: client.side.length,
 		deckbuf: client.main.concat(client.side)
