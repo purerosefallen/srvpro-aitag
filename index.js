@@ -47,6 +47,7 @@ ygopro.ctos_follow_before("CHAT", true, (buffer, info, client, server, datas) =>
 	const cmd = msg.split(' ');
 	if (cmd[0] === "/ai") { 
 		const name = cmd[1];
+		var windbot;
 		if (name) {
 			windbot = _.sample(_.filter(windbots, function(w) {
 				return w.name === name || w.deck === name;
