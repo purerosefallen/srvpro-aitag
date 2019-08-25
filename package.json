@@ -1,0 +1,19 @@
+{
+  "name": "srvpro-aitag",
+  "version": "1.0.0",
+  "description": "AI Tag Mode plugin for SRVPro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purerosefallen/srvpro-aitag.git"
+  },
+  "author": "Nanahira",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/purerosefallen/srvpro-aitag/issues"
+  },
+  "homepage": "https://github.com/purerosefallen/srvpro-aitag#readme"
+}
