@@ -1,182 +1,184 @@
-[
-  {
-    "name": "Altergeist",
-    "deck": "Altergeist",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Blackwing",
-    "deck": "Blackwing",
-    "dialog": "default.json"
-  },
-  {
-    "name": "BlueEyes",
-    "deck": "BlueEyes",
-    "dialog": "default.json"
-  },
-  {
-    "name": "BlueEyesMaxDragon",
-    "deck": "BlueEyesMaxDragon",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Burn",
-    "deck": "Burn",
-    "dialog": "default.json"
-  },
-  {
-    "name": "ChainBurn",
-    "deck": "ChainBurn",
-    "dialog": "default.json"
-  },
-  {
-    "name": "CyberDragon",
-    "deck": "CyberDragon",
-    "dialog": "default.json"
-  },
-  {
-    "name": "DarkMagician",
-    "deck": "DarkMagician",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Dragunity",
-    "deck": "Dragunity",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Evilswarm",
-    "deck": "Evilswarm",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Frog",
-    "deck": "Frog",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Gravekeeper",
-    "deck": "Gravekeeper",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Graydle",
-    "deck": "Graydle",
-    "dialog": "default.json"
-  },
-  {
-    "name": "GrenMajuThunderBoarder",
-    "deck": "GrenMajuThunderBoarder",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Horus",
-    "deck": "Horus",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Level8",
-    "deck": "Level8",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Lightsworn",
-    "deck": "Lightsworn",
-    "dialog": "default.json"
-  },
-  {
-    "name": "LightswornShaddoldinosour",
-    "deck": "LightswornShaddoldinosour",
-    "dialog": "default.json"
-  },
-  {
-    "name": "MokeyMokey",
-    "deck": "MokeyMokey",
-    "dialog": "default.json"
-  },
-  {
-    "name": "MokeyMokeyKing",
-    "deck": "MokeyMokeyKing",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Nekroz",
-    "deck": "Nekroz",
-    "dialog": "default.json"
-  },
-  {
-    "name": "OldSchool",
-    "deck": "OldSchool",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Orcust",
-    "deck": "Orcust",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Phantasm",
-    "deck": "Phantasm",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Qliphort",
-    "deck": "Qliphort",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Rainbow",
-    "deck": "Rainbow",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Rank5",
-    "deck": "Rank5",
-    "dialog": "default.json"
-  },
-  {
-    "name": "ST1732",
-    "deck": "ST1732",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Salamangreat",
-    "deck": "Salamangreat",
-    "dialog": "default.json"
-  },
-  {
-    "name": "SkyStriker",
-    "deck": "SkyStriker",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Test",
-    "deck": "Test",
-    "dialog": "default.json"
-  },
-  {
-    "name": "ToadallyAwesome",
-    "deck": "ToadallyAwesome",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Trickstar",
-    "deck": "Trickstar",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Yosenju",
-    "deck": "Yosenju",
-    "dialog": "default.json"
-  },
-  {
-    "name": "ZexalWeapons",
-    "deck": "ZexalWeapons",
-    "dialog": "default.json"
-  },
-  {
-    "name": "Zoodiac",
-    "deck": "Zoodiac",
-    "dialog": "default.json"
-  }
-]
+{
+  "windbots": [
+    {
+      "name": "Altergeist",
+      "deck": "Altergeist",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Blackwing",
+      "deck": "Blackwing",
+      "dialog": "default.json"
+    },
+    {
+      "name": "BlueEyes",
+      "deck": "BlueEyes",
+      "dialog": "default.json"
+    },
+    {
+      "name": "BlueEyesMaxDragon",
+      "deck": "BlueEyesMaxDragon",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Burn",
+      "deck": "Burn",
+      "dialog": "default.json"
+    },
+    {
+      "name": "ChainBurn",
+      "deck": "ChainBurn",
+      "dialog": "default.json"
+    },
+    {
+      "name": "CyberDragon",
+      "deck": "CyberDragon",
+      "dialog": "default.json"
+    },
+    {
+      "name": "DarkMagician",
+      "deck": "DarkMagician",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Dragunity",
+      "deck": "Dragunity",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Evilswarm",
+      "deck": "Evilswarm",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Frog",
+      "deck": "Frog",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Gravekeeper",
+      "deck": "Gravekeeper",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Graydle",
+      "deck": "Graydle",
+      "dialog": "default.json"
+    },
+    {
+      "name": "GrenMajuThunderBoarder",
+      "deck": "GrenMajuThunderBoarder",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Horus",
+      "deck": "Horus",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Level8",
+      "deck": "Level8",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Lightsworn",
+      "deck": "Lightsworn",
+      "dialog": "default.json"
+    },
+    {
+      "name": "LightswornShaddoldinosour",
+      "deck": "LightswornShaddoldinosour",
+      "dialog": "default.json"
+    },
+    {
+      "name": "MokeyMokey",
+      "deck": "MokeyMokey",
+      "dialog": "default.json"
+    },
+    {
+      "name": "MokeyMokeyKing",
+      "deck": "MokeyMokeyKing",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Nekroz",
+      "deck": "Nekroz",
+      "dialog": "default.json"
+    },
+    {
+      "name": "OldSchool",
+      "deck": "OldSchool",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Orcust",
+      "deck": "Orcust",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Phantasm",
+      "deck": "Phantasm",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Qliphort",
+      "deck": "Qliphort",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Rainbow",
+      "deck": "Rainbow",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Rank5",
+      "deck": "Rank5",
+      "dialog": "default.json"
+    },
+    {
+      "name": "ST1732",
+      "deck": "ST1732",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Salamangreat",
+      "deck": "Salamangreat",
+      "dialog": "default.json"
+    },
+    {
+      "name": "SkyStriker",
+      "deck": "SkyStriker",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Test",
+      "deck": "Test",
+      "dialog": "default.json"
+    },
+    {
+      "name": "ToadallyAwesome",
+      "deck": "ToadallyAwesome",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Trickstar",
+      "deck": "Trickstar",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Yosenju",
+      "deck": "Yosenju",
+      "dialog": "default.json"
+    },
+    {
+      "name": "ZexalWeapons",
+      "deck": "ZexalWeapons",
+      "dialog": "default.json"
+    },
+    {
+      "name": "Zoodiac",
+      "deck": "Zoodiac",
+      "dialog": "default.json"
+    }
+  ]
+}
