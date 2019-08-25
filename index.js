@@ -38,6 +38,30 @@ function init() {
 
 init();
 
+ygopro.ctos_follow_before("CHAT", true, (buffer, info, client, server, datas) => {
+	var room = ROOM_all[client.rid];
+	if (!room) {
+		return;
+	}
+	const cmd = msg.split(' ');
+	if (cmd[0] === "/ai") { 
+		if (name = cmd[1]) {
+			windbot = _.sample(_.filter(windbots, function(w) {
+				return w.name === name || w.deck === name;
+			}));
+			if (!windbot) {
+				ygopro.stoc_send_chat(client, "${windbot_deck_not_found}", ygopro.constants.COLORS.RED);
+				return true;
+			}
+		} else {
+			windbot = _.sample(windbots);
+		}
+		room.add_windbot(windbot);
+		return true;
+	}
+	return false;
+});
+
 ygopro.ctos_follow_after("UPDATE_DECK", false, (buffer, info, client, server, datas) => {
 	var room = ROOM_all[client.rid];
 	if (!room || client.is_local || client.pre_reconnecting) {
