@@ -3,182 +3,182 @@
     {
       "name": "Altergeist",
       "deck": "Altergeist",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Blackwing",
       "deck": "Blackwing",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "BlueEyes",
       "deck": "BlueEyes",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "BlueEyesMaxDragon",
       "deck": "BlueEyesMaxDragon",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Burn",
       "deck": "Burn",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "ChainBurn",
       "deck": "ChainBurn",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "CyberDragon",
       "deck": "CyberDragon",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "DarkMagician",
       "deck": "DarkMagician",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Dragunity",
       "deck": "Dragunity",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Evilswarm",
       "deck": "Evilswarm",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Frog",
       "deck": "Frog",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Gravekeeper",
       "deck": "Gravekeeper",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Graydle",
       "deck": "Graydle",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "GrenMajuThunderBoarder",
       "deck": "GrenMajuThunderBoarder",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Horus",
       "deck": "Horus",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Level8",
       "deck": "Level8",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Lightsworn",
       "deck": "Lightsworn",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "LightswornShaddoldinosour",
       "deck": "LightswornShaddoldinosour",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "MokeyMokey",
       "deck": "MokeyMokey",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "MokeyMokeyKing",
       "deck": "MokeyMokeyKing",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Nekroz",
       "deck": "Nekroz",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "OldSchool",
       "deck": "OldSchool",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Orcust",
       "deck": "Orcust",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Phantasm",
       "deck": "Phantasm",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Qliphort",
       "deck": "Qliphort",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Rainbow",
       "deck": "Rainbow",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Rank5",
       "deck": "Rank5",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "ST1732",
       "deck": "ST1732",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Salamangreat",
       "deck": "Salamangreat",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "SkyStriker",
       "deck": "SkyStriker",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Test",
       "deck": "Test",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "ToadallyAwesome",
       "deck": "ToadallyAwesome",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Trickstar",
       "deck": "Trickstar",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Yosenju",
       "deck": "Yosenju",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "ZexalWeapons",
       "deck": "ZexalWeapons",
-      "dialog": "default.json"
+      "dialog": "default"
     },
     {
       "name": "Zoodiac",
       "deck": "Zoodiac",
-      "dialog": "default.json"
+      "dialog": "default"
     }
   ]
 }

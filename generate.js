@@ -9,7 +9,7 @@ for (var filename of list) {
 		res.windbots.push({
 			name: parsed_name,
 			deck: parsed_name,
-			dialog: "default.json"
+			dialog: "default"
 		});
 	}
 }
