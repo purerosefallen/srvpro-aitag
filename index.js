@@ -38,7 +38,7 @@ function init() {
 
 init();
 
-ygopro.ctos_follow_before("CHAT", true, (buffer, info, client, server, datas) => {
+ygopro.ctos_follow_before("CHAT", true, async (buffer, info, client, server, datas) => {
 	var room = ROOM_all[client.rid];
 	if (!room) {
 		return;
@@ -65,7 +65,7 @@ ygopro.ctos_follow_before("CHAT", true, (buffer, info, client, server, datas) =>
 	return false;
 });
 
-ygopro.ctos_follow_after("UPDATE_DECK", false, (buffer, info, client, server, datas) => {
+ygopro.ctos_follow_after("UPDATE_DECK", false, async (buffer, info, client, server, datas) => {
 	var room = ROOM_all[client.rid];
 	if (!room || client.is_local || client.pre_reconnecting) {
 		return;
@@ -81,14 +81,14 @@ ygopro.ctos_follow_after("UPDATE_DECK", false, (buffer, info, client, server, da
 	buffer = struct.buffer;
 });
 
-ygopro.stoc_follow_before("DUEL_START", false, (buffer, info, client, server, datas) => {
+ygopro.stoc_follow_before("DUEL_START", false, async (buffer, info, client, server, datas) => {
 	var room = ROOM_all[client.rid];
 	if (room && room.windbot) { 
 		room.windbot = null;
 	}
 });
 
-ygopro.stoc_follow_after("CHANGE_SIDE", true, (buffer, info, client, server, datas) => {
+ygopro.stoc_follow_after("CHANGE_SIDE", true, async (buffer, info, client, server, datas) => {
 	var room = ROOM_all[client.rid];
 	if (!room) {
 		return false;
