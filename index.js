@@ -73,7 +73,7 @@ ygopro.ctos_follow_after("UPDATE_DECK", false, async (buffer, info, client, serv
 	const deck = _.sample(decks);
 	client.main = deck.main;
 	client.side = deck.side;
-	var struct = ygopro.structs["deck"];
+	var struct = ygopro.structs.get("deck");
 	struct._setBuff(buffer);
 	struct.set("mainc", deck.main.length);
 	struct.set("sidec", deck.side.length);
